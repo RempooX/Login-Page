@@ -124,21 +124,24 @@ body{
 }
 
 
-.header {
-	background: linear-gradient(to right, rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+
+.header1 {
+	color: turquoise;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100px;
-	text-decoration: underline;
+	font-size: 50px;
+  font-family:'cursive';
+  text-decoration: underline;
 	text-decoration-color: rgb(46, 195, 206);
   text-decoration-style:solid;
-  font-size: 50px;
-  font-family:'cursive';
-  
+
 }
+
+
+
   
   .header h1 {
 	font-size: 36px;
