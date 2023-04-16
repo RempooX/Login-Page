@@ -55,6 +55,11 @@ body{
 	flex: 1;
 }
 
+.center-btn {
+	display: flex;
+	justify-content: center;
+}
+
 .btn{
 	background-color: #2d39a7;
 	color: #fff;
@@ -63,8 +68,6 @@ body{
 	border-radius: 5px;
 	margin-top: 20px;
 	cursor: pointer;
-	display: flex;
-    justify-content: center;
 }
 
 .btn:hover{
@@ -76,7 +79,7 @@ body{
 	text-align: center;
 }
 
-.forgot a{
+.forgot a {
 	color: #10c510;
 	font-size: 14px;
 	text-decoration: none;
@@ -84,8 +87,4 @@ body{
 
 .forgot a:hover{
 	color: #5BC260;
-}
-
-h1 {
-	color: #20da28;
 }
