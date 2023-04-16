@@ -63,6 +63,8 @@ body{
 	border-radius: 5px;
 	margin-top: 20px;
 	cursor: pointer;
+	display: flex;
+    justify-content: center;
 }
 
 .btn:hover{
