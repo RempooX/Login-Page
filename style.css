@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Poor+Story&display=swap');
-
+@import url('https://fonts.google.com/specimen/Poiret+One');
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 10vh;
 }
 
 .login-box{
@@ -26,8 +26,9 @@ body{
 	border-radius: 30px;
 	text-shadow: 0px 0px 1000px #040b2f;
 	position: relative;
-	top: 40px;
-  left: 20px;
+	top: 0%;
+  left: 10px;
+  
   opacity: 100;
 }
 
@@ -121,3 +122,142 @@ body{
 .forgot a:hover{
 	color: #f50000;
 }
+
+
+.header {
+	background: linear-gradient(to right, rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255), rgb(0, 217, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	text-decoration: underline;
+	text-decoration-color: rgb(46, 195, 206);
+  text-decoration-style:solid;
+  font-size: 50px;
+  font-family:'cursive';
+  
+}
+  
+  .header h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+  }
+
+  .text-box {
+	background-color: #555454;
+	padding: 0px;
+	border-radius: 10px;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: justify;
+	width: fit-content;
+	height: max-content;
+	margin: 20px auto; /* set left and right margins to "auto" */
+	text-align: justify;
+	opacity: 17%;
+
+
+  }
+  
+  .text-box-heading {
+	text-decoration: underline;
+	text-decoration-color: rgb(32, 32, 32);
+  text-decoration-style:solid;
+	color: #000000;
+	left: 0%;
+	text-align: center;
+	font-size: 24px;
+	margin: 0 0 10px;
+	opacity: 25%;
+  }
+  
+  .text-box-body {
+	color: #000000;
+	left: 0%;
+	text-align: center;
+	margin: 0 0 20px;
+	opacity: 25%;
+
+  }
+  
+  
+  .container1 {
+	background-color: #ffffff;
+	padding: 0px;
+	border-radius: 10px;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: left;
+	width: fit-content;
+	height: max-content;
+	margin: 20px auto; /* set left and right margins to "auto" */
+	/* text-align: justify; */
+	/* opacity: 17%; */
+	position: relative;
+	left: -730px;
+	
+	
+  }
+  .text-box1 {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+  }
+
+  .text-box2 {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+  }
+
+  .p5 {
+	color: #101fc5;
+	text-decoration: yellowgreen;
+  }
+
+  .container1 .p5 {
+	color: #b11c1c;
+  }
+
+  .description {
+	background-color: #292929;
+	padding: 0px;
+	border-radius: 10px;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: left;
+	width: 25%;;
+	height: max-content;
+	margin: 20px auto; /* set left and right margins to "auto" */
+	/* text-align: justify; */
+	opacity: 50%;
+	position: relative;
+	left: -700px;
+  }
+
+  .textbox {
+	font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(255, 255, 255);
+	text-shadow: #f0f0f0;
+	text-shadow: 2px 2px 4px #5900ff;
+
+  }
+
+  .text-box-body1 {
+	text-shadow: 2px 2px 4px #5900ff;
+	color: #ffffff;
+  }
+
+  
