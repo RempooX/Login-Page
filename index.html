@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-box">
+                <h1>Login</h1>
+                <form onsubmit="validateForm(event)">
+                    <div class="textbox">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" name="username" />
+                    </div>
+
+                    <div class="textbox">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" name="password" />
+                    </div>
+                    <button class="btn" type="submit">Submit</button>
+                    <div class="forgot">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    function validateForm(event) {
+        event.preventDefault(); // prevent the form from submitting
+
+        const username = document.getElementsByName("username")[0].value;
+        const password = document.getElementsByName("password")[0].value;
+
+        // alert(`Username: ${username}\nPassword: ${password}`);
+
+        if(username === "admin" && password === "admin") {
+            alert("You shall pass!");
+        } else {
+            alert("You shall not pass!");
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+    }
+</script>
