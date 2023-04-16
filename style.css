@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Poor+Story&display=swap');
+
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-	background-color: #acb7ce;
+	background-image: url(https://cdn.pixabay.com/photo/2016/03/18/15/02/ufo-1265186_960_720.jpg);
+    background-color: #acb7ce;
+    font-family: 'Heebo', sans-serif;
 }
 
 .container{
@@ -16,10 +20,11 @@ body{
 }
 
 .login-box{
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/30/22/50/forest-3119826_960_720.jpg);
 	background-color: #a6baf7;
 	padding: 40px;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .login-box h1{
@@ -45,7 +50,7 @@ body{
 	border: none;
 	outline: none;
 	font-size: 16px;
-	color: #555;
+	color: #ffffff;
 	background: none;
 	flex: 1;
 }
@@ -58,6 +63,8 @@ body{
 	border-radius: 5px;
 	margin-top: 20px;
 	cursor: pointer;
+	display: flex;
+    justify-content: center;
 }
 
 .btn:hover{
@@ -70,11 +77,15 @@ body{
 }
 
 .forgot a{
-	color: #1d1d1d;
+	color: #10c510;
 	font-size: 14px;
 	text-decoration: none;
 }
 
 .forgot a:hover{
 	color: #5BC260;
+}
+
+h1 {
+	color: #20da28;
 }
