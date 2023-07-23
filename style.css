@@ -289,6 +289,7 @@ body{
   .text-box-body1 {
 	text-shadow: 2px 2px 4px #5900ff;
 	color: #ffffff;
+	justify-content: left;
   }
 
   
